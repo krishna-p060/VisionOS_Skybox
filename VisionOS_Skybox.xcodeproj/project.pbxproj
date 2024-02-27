@@ -14,6 +14,7 @@
 		183717D02B8CE3CC005622CF /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 183717CF2B8CE3CC005622CF /* ImageBasedLighting.skybox */; };
 		183717D22B8CE3CE005622CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183717D12B8CE3CE005622CF /* Assets.xcassets */; };
 		183717D52B8CE3CE005622CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183717D42B8CE3CE005622CF /* Preview Assets.xcassets */; };
+		183717DD2B8CFDEB005622CF /* SkyBoxControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183717DC2B8CFDEB005622CF /* SkyBoxControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		183717D12B8CE3CE005622CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183717D42B8CE3CE005622CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		183717D62B8CE3CE005622CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183717DC2B8CFDEB005622CF /* SkyBoxControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBoxControlsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				183717C92B8CE3CC005622CF /* VisionOS_SkyboxApp.swift */,
 				183717CB2B8CE3CC005622CF /* ContentView.swift */,
+				183717DC2B8CFDEB005622CF /* SkyBoxControlsView.swift */,
 				183717CD2B8CE3CC005622CF /* ImmersiveView.swift */,
 				183717CF2B8CE3CC005622CF /* ImageBasedLighting.skybox */,
 				183717D12B8CE3CE005622CF /* Assets.xcassets */,
@@ -163,6 +166,7 @@
 			files = (
 				183717CC2B8CE3CC005622CF /* ContentView.swift in Sources */,
 				183717CA2B8CE3CC005622CF /* VisionOS_SkyboxApp.swift in Sources */,
+				183717DD2B8CFDEB005622CF /* SkyBoxControlsView.swift in Sources */,
 				183717CE2B8CE3CC005622CF /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
